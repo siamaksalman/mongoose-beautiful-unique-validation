@@ -1,6 +1,6 @@
-# mongoose-beautiful-unique-validation
+# muniqfy
 
-Plugin for Mongoose that turns duplicate errors into regular Mongoose validation errors.
+Plugin for Mongoose that turns duplicate errors into regular Mongoose validation errors based on [mongoose-beautiful-unique-validation](https://github.com/matteodelabre/mongoose-beautiful-unique-validation)
 
 [![npm version](https://img.shields.io/npm/v/mongoose-beautiful-unique-validation.svg?style=flat-square)](https://www.npmjs.com/package/mongoose-beautiful-unique-validation)
 [![npm downloads](https://img.shields.io/npm/dm/mongoose-beautiful-unique-validation.svg?style=flat-square)](https://www.npmjs.com/package/mongoose-beautiful-unique-validation)
