@@ -117,6 +117,10 @@ module.exports = function (schema, options) {
                 messages[key] = tree[key].unique;
                 tree[key].unique = true;
             }
+            // additional parameter for unqiue error message
+            if (tree[key] && tree[key].uniqueError) {
+              messages[key] = tree[key].uniqueError;
+          }
         }
     }
 
